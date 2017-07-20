@@ -81,7 +81,7 @@ body {
 	min-width:1000px;
 	width: 100vw;
 	height:100vh;
-	background-image:url("../img/Background.jpg");
+	background-image:url("../img/bg.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -166,7 +166,7 @@ button:hover{
 	max-height:600px;
 	top:20%;
 	left:4%;
-	background-image:url("../img/IMAC.png");
+	background-image:url("../img/imac.png");
 	background-size:100%;
 	background-repeat: no-repeat;
 	
