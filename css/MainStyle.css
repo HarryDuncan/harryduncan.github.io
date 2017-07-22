@@ -1,4 +1,12 @@
 html { overflow-y: scroll; overflow-x:hidden; }
+/* Media queries for mobile */
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
 body {
 	min-width:1000px;
 	margin:0;
