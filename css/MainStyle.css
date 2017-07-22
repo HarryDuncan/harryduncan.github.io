@@ -1,7 +1,7 @@
 html { overflow-y: scroll; overflow-x:hidden; }
 /* Media queries for mobile */
 
-@media screen and (min-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width:550px){
 	
    .MainNav {
     position:absolute;
@@ -76,7 +76,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
 
 */for desktop*/
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 551px) {
 body {
 	min-width:1000px;
 	margin:0;
