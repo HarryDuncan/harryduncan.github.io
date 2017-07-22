@@ -79,6 +79,8 @@ body {
 
 #Home{
 	positon: absolute;
+	margin:0px;
+	padding:0px;
 	top:0px;
 	left:0px;
 	min-width:1000px;
@@ -92,7 +94,7 @@ body {
 #Home p{
 	position:absolute;
 	top:25%;
-	color: red;
+	color: white;
 	margin:10%;
 	font: 8vh arial, sans-serif;
 	font-weight:bold;
