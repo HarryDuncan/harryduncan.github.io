@@ -5,6 +5,8 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	
    .MainNav {
     position:absolute;
+    top:0px;
+	   left:0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,7 +24,12 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	left:3%;
 	line-height:80%;
 }
-
+.MainNav ul{
+	float:right;
+        cursor:pointer;
+	margin:0;
+	padding:0;
+}
 .MainNav a {
     color: white;
     display: block;
@@ -48,6 +55,8 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	background-image:url("../img/bg.jpg");
 	background-size: auto;
 	background-repeat: no-repeat;
+	padding:0px;
+	margin:0px;
 }
 #Home p{
 	position:absolute;
