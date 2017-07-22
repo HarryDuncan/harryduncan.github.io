@@ -2,10 +2,49 @@ html { overflow-y: scroll; overflow-x:hidden; }
 /* Media queries for mobile */
 
 @media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
+	
+   .MainNav {
+    position:absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:12%;
+    width:100%;
+    min-width:1000px;
+    z-index:2;
+       
 }
+.MainNav h1{
+	color: white;
+	font: 4vh arial, sans-serif;
+	letter-spacing:2px;
+	position:absolute;
+	left:3%;
+	line-height:80%;
+}
+
+.MainNav a {
+    color: white;
+    display: block;
+    font: 1vh arial,sans-serif;
+    color: white;
+    padding: 2vh;
+    margin:1vh;
+    text-decoration: none;
+    text-align: left;
+    font-weight:bold;
+    
+}
+
+.MainNav li{
+	list-style-type: none;
+	float:left;
+}
+
+}
+
+*/for desktop/*
+
 
 body {
 	min-width:1000px;
