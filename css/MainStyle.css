@@ -86,6 +86,7 @@ body {
 	height:100vh;
 	background-image:url("../img/bg.jpg");
 	background-size: 100%;
+	background-position:left top;
 	background-repeat: no-repeat;
 }
 #Home p{
