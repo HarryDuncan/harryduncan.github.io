@@ -78,7 +78,7 @@ body {
 /* For the Home page, start */
 
 #Home{
-	positon: absolute;
+	positon: relative;
 	margin:0px;
 	padding:0px;
 	top:0px;
