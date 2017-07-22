@@ -78,9 +78,7 @@ body {
 /* For the Home page, start */
 
 #Home{
-	positon: relative;
-	margin:0px;
-	padding:0px;
+	positon: absolute;
 	top:0px;
 	left:0px;
 	min-width:1000px;
@@ -88,7 +86,7 @@ body {
 	height:100vh;
 	background-image:url("../img/bg.jpg");
 	background-size: 100%;
-	background-position:calc(100% - 20px) calc(100% - 10px);;
+	background-position:0% 0%;
 	background-repeat: no-repeat;
 }
 #Home p{
