@@ -5,6 +5,8 @@ body {
 	min-width:1000px;
 	margin:0px;
 	padding:0px;
+	top:0px;
+	left:0px;
 }
 
 .MainNav {
