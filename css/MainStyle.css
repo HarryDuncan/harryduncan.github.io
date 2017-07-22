@@ -1,8 +1,10 @@
 html { overflow-y: scroll; overflow-x:hidden; }
+*/for desktop*/
+
 body {
 	min-width:1000px;
-	margin:0;
-	padding:0;
+	margin:0px;
+	padding:0px;
 }
 
 .MainNav {
@@ -73,16 +75,18 @@ body {
 
 
 
-
 /* For the Home page, start */
 
 #Home{
-	positon: relative;
+	positon: absolute;
+	top:0px;
+	left:0px;
 	min-width:1000px;
 	width: 100vw;
 	height:100vh;
 	background-image:url("../img/bg.jpg");
 	background-size: 100%;
+	background-position:left top;
 	background-repeat: no-repeat;
 }
 #Home p{
@@ -213,3 +217,79 @@ button:hover{
 	font: 3vh arial, sans-serf;
 	color:#a6a6a8;
 }
+
+
+/* Media queries for mobile */
+
+@media screen and (max-width:550px){
+	
+   .MainNav {
+    position:absolute;
+    top:0px;
+    left:0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:12%;
+    width:100%;
+    min-width:1000px;
+    z-index:2;    
+}
+.MainNav h1{
+	color: white;
+	font: 4vh arial, sans-serif;
+	letter-spacing:2px;
+	position:absolute;
+	left:3%;
+	line-height:80%;
+}
+.MainNav ul{
+	float:right;
+        cursor:pointer;
+	margin:0px;
+	padding:0px;
+}
+.MainNav a {
+    color: white;
+    display: block;
+    font: 1vh arial,sans-serif;
+    color: white;
+    padding: 2vh;
+    margin:1vh;
+    text-decoration: none;
+    text-align: left;
+    font-weight:bold;
+    
+}
+
+.MainNav li{
+	list-style-type: none;
+	float:left;
+}
+#Home{
+	positon: relative;
+	min-width:1000px;
+	width: 100vw;
+	height:100vh;
+	background-image:url("../img/bg.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	padding:0px;
+	margin:0px;
+}
+#Home p{
+	position:absolute;
+	top:25%;
+	color: white;
+	margin:10%;
+	font: 3vh arial, sans-serif;
+	font-weight:bold;
+	text-align:center;
+}
+#HomeScrollPoint{
+	position:absolute;
+	top:0px;
+}
+
+}
+
