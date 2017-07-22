@@ -40,12 +40,56 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	list-style-type: none;
 	float:left;
 }
+#Home{
+	positon: relative;
+	min-width:1000px;
+	width: 100vw;
+	height:100vh;
+	background-image:url("../img/bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#Home p{
+	position:absolute;
+	top:25%;
+	color: white;
+	margin:10%;
+	font: 8vh arial, sans-serif;
+	font-weight:bold;
+	text-align:center;
+}
+#HomeScrollPoint{
+	position:absolute;
+	top:0px;
+}
+#Home{
+	positon: relative;
+	min-width:1000px;
+	width: 100vw;
+	height:100vh;
+	background-image:url("../img/bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#Home p{
+	position:absolute;
+	top:25%;
+	color: white;
+	margin:10%;
+	font: 8vh arial, sans-serif;
+	font-weight:bold;
+	text-align:center;
+}
+#HomeScrollPoint{
+	position:absolute;
+	top:0px;
+}
 
 }
 
 */for desktop*/
 
-
+@media screen and (min-width: 1000px) {
 body {
 	min-width:1000px;
 	margin:0;
@@ -259,4 +303,5 @@ button:hover{
 #Contact li{
 	font: 3vh arial, sans-serf;
 	color:#a6a6a8;
+}
 }
