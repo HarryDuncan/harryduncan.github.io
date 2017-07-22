@@ -1,6 +1,6 @@
 html { overflow-y: scroll; overflow-x:hidden; }
-*/for desktop*/
 
+*/for desktop*/
 body {
 	min-width:1000px;
 	margin:0px;
@@ -92,7 +92,7 @@ body {
 #Home p{
 	position:absolute;
 	top:25%;
-	color: white;
+	color: red;
 	margin:10%;
 	font: 8vh arial, sans-serif;
 	font-weight:bold;
