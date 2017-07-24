@@ -215,12 +215,6 @@ button:hover{
 }
 
 @ media screen and (max-width: 600px){
-	
-body {
-	min-width:1000px;
-	margin:0;
-	padding:0;
-}
 
 .MainNav {
     position:fixed;
@@ -389,7 +383,6 @@ button:hover{
 #Contact{
 	position: relative;
 	background-color:#181819;
-	min-width:1000px;
 	width:100vw;
 	height:30vh;
 	min-height: 150px;
