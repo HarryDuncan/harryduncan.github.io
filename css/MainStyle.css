@@ -293,7 +293,7 @@ body{
 	width: 100vw;
 	height:100vh;
 	background-image:url("../img/bg.jpg");
-	background-size: auto;
+	background-size: 5%;
 	background-repeat: no-repeat;
 }
 #Home p{
@@ -303,7 +303,6 @@ body{
 	margin:5%;
 	font: 3vh arial, sans-serif;
 	font-weight:bold;
-	overflow:none;
 }
 #HomeScrollPoint{
 	position:absolute;
