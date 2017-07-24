@@ -213,3 +213,70 @@ button:hover{
 	font: 3vh arial, sans-serf;
 	color:#a6a6a8;
 }
+
+@ media screen and (max-width: 600px){
+	.MainNav {
+    position:fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:12%;
+    width:100%;
+    min-width:1000px;
+    z-index:2;
+       
+}
+.MainNav h1{
+	color: white;
+	font: 4vh arial, sans-serif;
+	letter-spacing:2px;
+	position:absolute;
+	left:3%;
+	line-height:80%;
+}
+
+.MainNav.Scroll{
+	background-color:#181819;
+	opacity: 0.7;
+}
+.MainNav.Scroll li{
+	height:12%;
+}
+.MainNav.Scroll ul li hover{
+	background-color:#181819;
+}
+
+
+/* all of the Css for the Main Nav bar */
+
+.MainNav ul{
+	float:right;
+        cursor:pointer;
+	margin:0;
+	padding:0;
+        
+}
+.MainNav a {
+    color: white;
+    display: block;
+    font: 2vh arial,sans-serif;
+    color: white;
+    padding: 1vh;
+    margin:1vh;
+    text-decoration: none;
+    text-align: left;
+    font-weight:bold;
+    
+}
+
+.MainNav li{
+	list-style-type: none;
+	float:left;
+}
+
+.MainNav ul li:hover{
+	color:#19218e;
+	opacity:0.8;
+}
+	
+}
