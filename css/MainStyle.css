@@ -293,16 +293,17 @@ body{
 	width: 100vw;
 	height:100vh;
 	background-image:url("../img/bg.jpg");
-	background-size: 5%;
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 #Home p{
 	position:absolute;
 	top:15%;
-	color: red;
+	color: white;
 	margin:5%;
 	font: 3vh arial, sans-serif;
 	font-weight:bold;
+	text-align:center;
 }
 #HomeScrollPoint{
 	position:absolute;
