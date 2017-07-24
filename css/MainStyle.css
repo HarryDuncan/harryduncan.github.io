@@ -294,10 +294,10 @@ body {
 	background-repeat: no-repeat;
 }
 #Home p{
-	position:absolute;
-	top:25%;
+	position:relative;
+	top:15%;
 	color: white;
-	margin:10%;
+	margin:5%;
 	font: 3vh arial, sans-serif;
 	font-weight:bold;
 	text-align:center;
