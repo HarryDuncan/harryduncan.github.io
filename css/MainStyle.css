@@ -235,7 +235,7 @@ body {
 }
 .MainNav h1{
 	color: white;
-	font: 4vh arial, sans-serif;
+	font: 3vh arial, sans-serif;
 	letter-spacing:2px;
 	position:absolute;
 	left:3%;
@@ -298,7 +298,7 @@ body {
 	top:25%;
 	color: white;
 	margin:10%;
-	font: 6vh arial, sans-serif;
+	font: 3vh arial, sans-serif;
 	font-weight:bold;
 	text-align:center;
 }
