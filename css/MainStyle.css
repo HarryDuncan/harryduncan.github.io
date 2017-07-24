@@ -290,17 +290,17 @@ button:hover{
 	width: 100vw;
 	height:100vh;
 	background-image:url("../img/bg.jpg");
-	background-size: 80%;
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 #Home p{
-	position:relative;
+	position:absolute;
 	top:15%;
 	color: white;
 	margin:5%;
 	font: 3vh arial, sans-serif;
 	font-weight:bold;
-	text-align:center;
+	overflow:none;
 }
 #HomeScrollPoint{
 	position:absolute;
@@ -355,9 +355,6 @@ button:hover{
 
 }
 
-button:hover{
-	opacity:0.5;
-}
 .screen{
 	position:absolute;
 	min-height:413px;
