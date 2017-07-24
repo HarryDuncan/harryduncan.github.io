@@ -215,7 +215,14 @@ button:hover{
 }
 
 @ media screen and (max-width: 600px){
-	.MainNav {
+	
+body {
+	min-width:1000px;
+	margin:0;
+	padding:0;
+}
+
+.MainNav {
     position:fixed;
     list-style-type: none;
     margin: 0;
