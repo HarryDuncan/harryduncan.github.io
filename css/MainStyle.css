@@ -235,7 +235,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
 }
 .MainNav h1{
 	color: white;
-	font: 3vh arial, sans-serif;
+	font: 5vh arial, sans-serif;
 	letter-spacing:2px;
 	position:absolute;
 	left:3%;
@@ -266,7 +266,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
 .MainNav a {
     color: white;
     display: block;
-    font: 2vh arial,sans-serif;
+    font: 3vh arial,sans-serif;
     color: white;
     padding: 3vh;
     margin:3vh;
@@ -288,9 +288,9 @@ html { overflow-y: scroll; overflow-x:hidden; }
 #Home{
 	positon: relative;
 	width: 100vw;
-	height:200vh;
+	height:100%;
 	background-image:url("../img/bg.jpg");
-	background-size: auto;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 #Home p{
@@ -311,12 +311,12 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	position: relative;
 	background-color: white;
 	width:100vw;
-	height:200vh;
+	height:100%;
 	
 }
 #AboutSection{
 	position: absolute;
-	top:15%;
+	top:5%;
 	right:10%;
 	margin: -10% 10 0 -15%;
 	background-color: white;
@@ -360,7 +360,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	width:38vw;
 	height:66vh;
 	max-height:600px;
-	top:20%;
+	bottom:20%;
 	left:4%;
 	background-image:url("../img/screen.png");
 	background-size:100%;
