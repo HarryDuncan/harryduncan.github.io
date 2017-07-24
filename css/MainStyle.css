@@ -268,8 +268,8 @@ html { overflow-y: scroll; overflow-x:hidden; }
     display: block;
     font: 2vh arial,sans-serif;
     color: white;
-    padding: 1vh;
-    margin:1vh;
+    padding: 3vh;
+    margin:3vh;
     text-decoration: none;
     text-align: left;
     font-weight:bold;
@@ -288,7 +288,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
 #Home{
 	positon: relative;
 	width: 100vw;
-	height:100vh;
+	height:200vh;
 	background-image:url("../img/bg.jpg");
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -297,8 +297,8 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	position:absolute;
 	top:15%;
 	color: white;
-	margin:5%;
-	font: 3vh arial, sans-serif;
+	margin:10%;
+	font: 8vh arial, sans-serif;
 	font-weight:bold;
 	text-align:center;
 }
@@ -311,7 +311,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	position: relative;
 	background-color: white;
 	width:100vw;
-	height:100vh;
+	height:200vh;
 	
 }
 #AboutSection{
