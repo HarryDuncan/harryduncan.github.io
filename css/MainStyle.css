@@ -287,7 +287,6 @@ body {
 }
 #Home{
 	positon: relative;
-	min-width:1000px;
 	width: 100vw;
 	height:100vh;
 	background-image:url("../img/bg.jpg");
@@ -313,8 +312,6 @@ body {
 	background-color: white;
 	width:100vw;
 	height:100vh;
-	min-height:500px;
-	min-width: 1000px;
 	
 }
 #AboutSection{
