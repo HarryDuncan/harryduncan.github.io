@@ -357,8 +357,6 @@ button:hover{
 
 .screen{
 	position:absolute;
-	min-height:413px;
-	min-width:500px;
 	width:38vw;
 	height:66vh;
 	max-height:600px;
