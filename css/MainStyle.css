@@ -278,5 +278,27 @@ button:hover{
 	color:#19218e;
 	opacity:0.8;
 }
+#Home{
+	positon: relative;
+	min-width:1000px;
+	width: 100vw;
+	height:100vh;
+	background-image:url("../img/bg.jpg");
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+#Home p{
+	position:absolute;
+	top:25%;
+	color: white;
+	margin:10%;
+	font: 8vh arial, sans-serif;
+	font-weight:bold;
+	text-align:center;
+}
+#HomeScrollPoint{
+	position:absolute;
+	top:0px;
+}
 	
 }
