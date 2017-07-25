@@ -298,42 +298,14 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	position:absolute;
 	top:0px;
 }
-/* For the Second Section, the About Section */
 #About{
-	position: relative;
-	background-color: white;
-	width:100%;
 	height:100%;
-	
+	background-color:white;
+	width:100%;
 }
-#AboutSection{
-	position: absolute;
-	top:5%;
-	left:5%;
-	background-color: white;
-	height: 10%;
-	width: 90%;
-	border-radius:25px;
-}
-
-#AboutSection p{
-	position:relative;
-	color: #46484c;
-	font: 7vh arial, sans-serif;
-	text-align:center;
-	
-}
-#AboutSection h2{
-	text-align:center;
-	color: black;
-	font: 10vh arial, sans-serif;
-	letter-spacing:1vh;
-
-}
-
-.screen{
-	display:none;
-	
+#mobileVersion{
+	font: 5vh arial, sans-serif;
+	width:80%;
 }
 #ViewPortfolio{
 	position: absolute;
@@ -348,14 +320,6 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	cursor:pointer ;
 	border-color: #232542;
 
-}
-
-.DemoSlide{
-	display:none;
-}
-#AboutScrollPoint{
-	position:absolute;
-	bottom:0px;
 }
 
 #Contact{
