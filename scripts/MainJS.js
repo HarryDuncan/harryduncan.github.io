@@ -1,15 +1,6 @@
 var slideIndex = 0;
 $(document).ready(function(){
-	var is_mobile = false;
-    	if( $(screen.width <= 699).css('display')=='none') {
-        	is_mobile = true;       
-	}
-    	if (is_mobile == true) {
-        //Conditional script here
-	}else{
 	carousel()
-	}
-	
 	$("li",".MainNav").click(function (){
 	var href = $(this).children('a').attr('href');
                 $('html, body').animate({
