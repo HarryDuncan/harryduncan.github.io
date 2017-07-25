@@ -322,7 +322,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	right:30%;
 	background-color: white;
 	height: 10%;
-	width: 50%;
+	width: 100%;
 	border-radius:25px;
 }
 
@@ -330,11 +330,11 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	position:relative;
 	color: #46484c;
 	font: 5vh arial, sans-serif;
-	text-align:left;
+	text-align:center;
 	
 }
 #AboutSection h2{
-	text-align:left;
+	text-align:center;
 	color: black;
 	font: 9vh arial, sans-serif;
 	letter-spacing:1vh;
@@ -345,7 +345,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	bottom:5%;
 	right:45%;
 	border-radius: 2px;
-	font: 3vh arial, sans-serif;
+	font: 4vh arial, sans-serif;
 	font-weight: bold;
 	color: black;
 	background-color:white;
@@ -357,7 +357,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	position:absolute;
 	width:38vw;
 	height:66vh;
-	bottom:8%;
+	bottom:0%;
 	left:25%;
 	background-image:url("../img/screen.png");
 	background-size:100%;
