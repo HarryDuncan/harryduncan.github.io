@@ -301,9 +301,9 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	position:relative;
 	top:15%;
 	color: white;
-	margin:10%
+	margin:10%;
 	font: 10vh arial, sans-serif;
-	width:100%;
+	width:80%;
 	height:80%;
 	font-weight:bold;
 	text-align:center;
@@ -359,9 +359,9 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 #ViewPortfolio{
 	position: absolute;
-	bottom:5%;
+	bottom:0px;
 	right:45%;
-	height:4vh;
+	height:5vh;
 	border-radius: 2px;
 	font: 4vh arial, sans-serif;
 	font-weight: bold;
