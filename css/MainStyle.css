@@ -290,7 +290,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	width: 100vw;
 	height:220vh;
 	background-image:url("../img/bg.jpg");
-	background-size: 100%;
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 #Home p{
