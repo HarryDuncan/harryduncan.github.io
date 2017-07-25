@@ -268,7 +268,10 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
     font-weight:bold;
     
 }
-
+.MainNav .notMobile{
+	display:none;
+	}
+	
 .MainNav li{
 	list-style-type: none;
 	float:left;
@@ -288,7 +291,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	top:25%;
 	color: white;
 	margin:10%;
-	font: 11vh arial, sans-serif;
+	font: 6vh arial, sans-serif;
 	width:80%;
 	height:80%;
 	font-weight:bold;
@@ -327,7 +330,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	}
 #ViewPortfolio{
 	position: absolute;
-	top:60%;
+	top:30%;
 	right:28%;
 	padding: 3vh;
 	border-radius: 2px;
