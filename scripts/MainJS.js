@@ -1,16 +1,3 @@
-$(window).scroll(function() {
-   var hH = $('#scroll-to').outerHeight(),
-       wH = $(window).height(),
-       wS = $(this).scrollTop();
-    if(wS > 100){
-	$(".MainNav").addClass("Scroll");
-    } else {
-        $('.MainNav').removeClass("Scroll");
-	}
-});
-
-
-
 var slideIndex = 0;
 $(document).ready(function(){
 
@@ -24,6 +11,26 @@ var href = $(this).children('a').attr('href');
 	
 		
 });
+
+
+$(window).scroll(function() {
+   var hH = $('#scroll-to').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+    if(wS > 100){
+	$(".MainNav").addClass("Scroll");
+    } else {
+        $('.MainNav').removeClass("Scroll");
+	}
+});
+
+function getHeight(){
+	var viewHeight = $(window).height();;
+}
+
+
+
+
 
 
 function carousel() {
