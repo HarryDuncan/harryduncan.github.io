@@ -288,7 +288,6 @@ html { overflow-y: scroll; overflow-x:hidden; }
 #Home{
 	positon: relative;
 	width: 100vw;
-	height:100vh;
 	background-image:url("../img/bg.jpg");
 	background-size: auto;
 	background-repeat: no-repeat;
