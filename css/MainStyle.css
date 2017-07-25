@@ -222,6 +222,8 @@ button:hover{
 /* for mobile */ 
 @media screen and (max-width: 699px){
 html { overflow-y: scroll; overflow-x:hidden; }
+	height: 100vh;
+        width: 100vw;
 
 .MainNav {
     position:fixed;
