@@ -233,6 +233,8 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
     height:12%;
     width:100%;
     z-index:2;
+    background-color:#181819;
+    opacity: 0.7;
        
 }
 .MainNav h1{
@@ -244,16 +246,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	line-height:80%;
 }
 
-.MainNav.Scroll{
-	background-color:#181819;
-	opacity: 0.7;
-}
-.MainNav.Scroll li{
-	height:12%;
-}
-.MainNav.Scroll ul li hover{
-	background-color:#181819;
-}
+
 
 /* all of the Css for the Main Nav bar */
 
@@ -286,16 +279,10 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	color:#19218e;
 	opacity:0.8;
 }
-	
-.MainNav.Scroll{
-	background-color:#181819;
-	opacity: 0.7;
-}
-.MainNav.Scroll li{
-	height:12%;
-}
+
 #Home{
-	positon: relative;
+	positon: absolute;
+	top:0px;
 	width: 100%;
 	height:100%;
 	background-image:url("../img/bg.jpg");
@@ -304,10 +291,10 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 #Home p{
 	position:relative;
-	top:15%;
+	top:25%;
 	color: white;
 	margin:10%;
-	font: 10vh arial, sans-serif;
+	font: 11vh arial, sans-serif;
 	width:80%;
 	height:80%;
 	font-weight:bold;
@@ -354,7 +341,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	position:absolute;
 	width:48vw;
 	height:76vh;
-	bottom:10%;
+	bottom:1%;
 	left:25%;
 	background-image:url("../img/screen.png");
 	background-size:100%;
@@ -416,6 +403,9 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	color:#a6a6a8;
 }
 #footer{
+	display:none;
+	}
+#header{
 	display:none;
 	}
 }
