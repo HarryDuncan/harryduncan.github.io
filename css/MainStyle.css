@@ -225,10 +225,6 @@ button:hover{
 /* for mobile */ 
 @media screen and (max-width: 699px){
 html, body { overflow-y: scroll; overflow-x:hidden; 
-	height: 200vh;
-        width: 100vw;
-	margin:0;
-	padding:0;
 	}
 	
 
@@ -237,21 +233,31 @@ html, body { overflow-y: scroll; overflow-x:hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height:9%;
-    width:100%;
+    height:12%;
+    min-width:100%;
     z-index:2;
-    background-color:#181819;
-    opacity: 0.7;
        
 }
 .MainNav h1{
 	color: white;
-	font: 5vh arial, sans-serif;
+	font: 4vh arial, sans-serif;
 	letter-spacing:2px;
 	position:absolute;
 	left:3%;
 	line-height:80%;
 }
+
+.MainNav.Scroll{
+	background-color:#181819;
+	opacity: 0.7;
+}
+.MainNav.Scroll li{
+	height:12%;
+}
+.MainNav.Scroll ul li hover{
+	background-color:#181819;
+}
+
 
 /* all of the Css for the Main Nav bar */
 
@@ -265,40 +271,51 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 .MainNav a {
     color: white;
     display: block;
-    font: 3vh arial,sans-serif;
+    font: 2vh arial,sans-serif;
+    color: white;
     padding: 3vh;
-    margin:3vh;
+    margin:2vh;
     text-decoration: none;
     text-align: left;
     font-weight:bold;
     
 }
-	
+
 .MainNav li{
 	list-style-type: none;
 	float:left;
 }
 
+.MainNav ul li:hover{
+	color:#19218e;
+	opacity:0.8;
+}
+
+
+
+
+
+
+/* For the Home page, start */
+
 #Home{
-	positon: absolute;
-	top:-10px;
-	width: 100%;
-	height:20%;
+	positon: relative;
+	min-height:55%;
+	width: 100vw;
 	background-image:url("../img/bg.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 #Home p{
-	position:relative;
-	top:20%;
+	position:absolute;
+	top:25%;
 	color: white;
 	margin:10%;
-	font: 6vh arial, sans-serif;
-	width:80%;
-	height:80%;
+	font: 8vh arial, sans-serif;
 	font-weight:bold;
 	text-align:center;
 }
+
 #HomeScrollPoint{
 	position:absolute;
 	top:0px;
