@@ -255,7 +255,8 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	background-color:#181819;
 }
 
-
+*{
+	border: 1px solid red;
 /* all of the Css for the Main Nav bar */
 
 .MainNav ul{
@@ -296,11 +297,10 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	background-repeat: no-repeat;
 }
 #Home p{
-	position:absolute;
+	position:relative;
 	top:15%;
 	color: white;
-	margin:10%;
-	font: 8vh arial, sans-serif;
+	font: 10vh arial, sans-serif;
 	width:100%;
 	font-weight:bold;
 	text-align:center;
@@ -318,6 +318,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	
 }
 #AboutSection{
+	margin:5%;
 	position: absolute;
 	top:5%;
 	right:30%;
