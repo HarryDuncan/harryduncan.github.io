@@ -299,7 +299,7 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 }
 #Home p{
 	position:absolute;
-	display:inline-block;
+	display:inline;
 	top:25%;
 	color: white;
 	margin:0 -40% 0 10%;
@@ -315,7 +315,8 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	top:0px;
 }
 #mobileBanner{
-	diplay:inline-block;
+	position: relative;
+	diplay:inline;
 	height:5%;
 	width:100%;
 	background: linear-gradient(-90deg, blue, white); /* Standard syntax */
