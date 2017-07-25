@@ -1,6 +1,6 @@
 var slideIndex = 0;
 $(document).ready(function(){
-
+	$('#Home', '#About').css('height', $(window).height());
 	carousel()	
 $("li",".MainNav").click(function (){
 var href = $(this).children('a').attr('href');
@@ -24,9 +24,7 @@ $(window).scroll(function() {
 	}
 });
 
-function getHeight(){
-	var viewHeight = $(window).height();;
-}
+
 
 
 
