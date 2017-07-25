@@ -1,6 +1,5 @@
 var slideIndex = 0;
 $(document).ready(function(){
-	$('#Home', '#About').css('height', viewHeight);
 	carousel()	
 $("li",".MainNav").click(function (){
 var href = $(this).children('a').attr('href');
