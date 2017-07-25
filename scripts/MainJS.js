@@ -1,6 +1,5 @@
 var slideIndex = 0;
 $(document).ready(function(){
-	var viewHeight = $.mobile.getScreenHeight();
 	$('#Home', '#About').css('height', viewHeight);
 	carousel()	
 $("li",".MainNav").click(function (){
