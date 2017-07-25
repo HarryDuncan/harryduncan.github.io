@@ -303,10 +303,27 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	background-color:white;
 	width:100%;
 }
+#AboutSection{
+	display:none;
+}
+
+#AboutSection p{
+	display:none;
+}
+#AboutSection h2{
+	display:none;
+
+}
 #mobileVersion{
 	font: 5vh arial, sans-serif;
 	width:80%;
 }
+.screen{
+	display:none;
+	}
+.DemoSlide{
+	display:none;
+	}
 #ViewPortfolio{
 	position: absolute;
 	top:60%;
@@ -319,6 +336,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	background-color:white;
 	cursor:pointer ;
 	border-color: #232542;
+	width:40%
 
 }
 
