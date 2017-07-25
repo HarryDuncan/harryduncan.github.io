@@ -234,6 +234,8 @@ html, body { overflow-y: scroll; overflow-x:hidden;
     padding: 0;
     height:12%;
     min-width:100%;
+    background-color:#181819;
+    opacity:0.7;
     z-index:2;
        
 }
@@ -246,16 +248,6 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	line-height:80%;
 }
 
-.MainNav.Scroll{
-	background-color:#181819;
-	opacity: 0.7;
-}
-.MainNav.Scroll li{
-	height:12%;
-}
-.MainNav.Scroll ul li hover{
-	background-color:#181819;
-}
 
 
 /* all of the Css for the Main Nav bar */
@@ -309,6 +301,7 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	position:absolute;
 	top:25%;
 	color: white;
+	margin:0%;
 	width:100%;
 	font: 7vh arial, sans-serif;
 	font-weight:bold;
