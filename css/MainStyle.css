@@ -304,7 +304,7 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	display:inline;
 	top:25%;
 	color: white;
-	margin:0 0 0 70%;
+	margin:0 0 0 20%;
 	padding:0px;
 	width:200%;
 	font: 7vh arial, sans-serif;
@@ -343,7 +343,7 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	position: absolute;
 	display:inline-block;
 	top:10%;
-	left:10%;
+	left:25%;
 	color:black;
 	font: 5vh arial, sans-serif;	
 }
