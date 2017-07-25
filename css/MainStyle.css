@@ -255,9 +255,6 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	background-color:#181819;
 }
 
-*{
-	border: 1px solid red;
-	}
 /* all of the Css for the Main Nav bar */
 
 .MainNav ul{
@@ -329,9 +326,9 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	
 }
 #AboutSection{
-	margin:5%;
 	position: absolute;
 	top:5%;
+	left:5%;
 	background-color: white;
 	height: 10%;
 	width: 90%;
@@ -365,7 +362,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	
 }
 #ViewPortfolio{
-	position: absolute;
+	position: relative;
 	bottom:0px;
 	right:45%;
 	height:7vh;
