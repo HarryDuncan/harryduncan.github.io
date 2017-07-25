@@ -1,6 +1,7 @@
 var slideIndex = 0;
 $(document).ready(function(){
-	carousel()	
+	carousel()
+	console.log(document.getElementById("ScreenCarousel").children.length);
 $("li",".MainNav").click(function (){
 var href = $(this).children('a').attr('href');
                 $('html, body').animate({
