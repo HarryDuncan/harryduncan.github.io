@@ -322,7 +322,6 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	background-color: white;
 	height: 30%;
 	width: 30%;
-	min-width:333px;
 	border-radius:25px;
 }
 
@@ -359,7 +358,6 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	position:absolute;
 	width:38vw;
 	height:66vh;
-	max-height:600px;
 	bottom:20%;
 	left:4%;
 	background-image:url("../img/screen.png");
@@ -386,7 +384,6 @@ html { overflow-y: scroll; overflow-x:hidden; }
 	background-color:#181819;
 	width:100vw;
 	height:30vh;
-	min-height: 150px;
 }
 #Contact h3{
 	position:absolute;
