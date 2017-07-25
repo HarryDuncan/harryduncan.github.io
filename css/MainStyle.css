@@ -243,6 +243,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	letter-spacing:2px;
 	position:absolute;
 	left:3%;
+	margin:0px;
 	line-height:80%;
 }
 
