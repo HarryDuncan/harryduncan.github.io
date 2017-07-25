@@ -259,7 +259,6 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
     color: white;
     display: block;
     font: 3vh arial,sans-serif;
-    color: white;
     padding: 3vh;
     margin:3vh;
     text-decoration: none;
@@ -336,10 +335,10 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 
 .screen{
-	position:absolute;
+	position:relative;
 	width:48vw;
 	height:76vh;
-	bottom:-20%;
+	bottom:10%;
 	left:25%;
 	background-image:url("../img/screen.png");
 	background-size:100%;
