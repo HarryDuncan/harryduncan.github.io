@@ -1,9 +1,17 @@
 var slideIndex = 0;
 $(document).ready(function(){
+	var is_mobile = false;
+    	if( $(screen.width <= 699).css('display')=='none') {
+        	is_mobile = true;       
+	}
+    	if (is_mobile == true) {
+        //Conditional script here
+	}else{
 	carousel()
-	console.log(document.getElementById("ScreenCarousel").children);
-$("li",".MainNav").click(function (){
-var href = $(this).children('a').attr('href');
+	}
+	
+	$("li",".MainNav").click(function (){
+	var href = $(this).children('a').attr('href');
                 $('html, body').animate({
                     scrollTop: $(href).offset().top
                 }, 1000);
@@ -17,7 +25,7 @@ $(window).scroll(function() {
    var hH = $('#scroll-to').outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
-    if(wS > 100){
+    if(wS > 10){
 	$(".MainNav").addClass("Scroll");
     } else {
         $('.MainNav').removeClass("Scroll");
