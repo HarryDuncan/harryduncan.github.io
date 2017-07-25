@@ -99,10 +99,9 @@ body {
 	top:0px;
 }
 
-
-
-
-
+#mobileBanner{
+	display:none;	
+}
 /* For the Second Section, the About Section */
 #About{
 	position: relative;
@@ -310,7 +309,7 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	position:absolute;
 	top:25%;
 	color: white;
-	width:80%
+	width:100%;
 	font: 7vh arial, sans-serif;
 	font-weight:bold;
 	text-align:center;
