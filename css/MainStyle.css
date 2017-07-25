@@ -299,7 +299,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	position:absolute;
 	top:15%;
 	color: white;
-	margin:40%;
+	margin:10%;
 	font: 8vh arial, sans-serif;
 	font-weight:bold;
 	text-align:center;
@@ -319,7 +319,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 #AboutSection{
 	position: absolute;
 	top:5%;
-	right:10%;
+	right:50%;
 	margin: -10% 10 0 -15%;
 	background-color: white;
 	height: 30%;
@@ -343,8 +343,8 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 #ViewPortfolio{
 	position: absolute;
-	top:60%;
-	right:28%;
+	top:5%;
+	right:50%;
 	padding: 3vh;
 	border-radius: 2px;
 	font: 3vh arial, sans-serif;
@@ -360,7 +360,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	position:absolute;
 	width:38vw;
 	height:66vh;
-	bottom:20%;
+	bottom:10%;
 	left:4%;
 	background-image:url("../img/screen.png");
 	background-size:100%;
