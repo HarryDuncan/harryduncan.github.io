@@ -301,6 +301,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	color: white;
 	margin:10%;
 	font: 8vh arial, sans-serif;
+	width:100%;
 	font-weight:bold;
 	text-align:center;
 }
@@ -329,14 +330,14 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 #AboutSection p{
 	position:relative;
 	color: #46484c;
-	font: 5vh arial, sans-serif;
+	font: 7vh arial, sans-serif;
 	text-align:center;
 	
 }
 #AboutSection h2{
 	text-align:center;
 	color: black;
-	font: 9vh arial, sans-serif;
+	font: 10vh arial, sans-serif;
 	letter-spacing:1vh;
 
 }
