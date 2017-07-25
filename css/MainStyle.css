@@ -329,14 +329,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 
 .screen{
-	position:relative;
-	width:58%;
-	height:60%;
-	top:50%;
-	left:25%;
-	background-image:url("../img/screen.png");
-	background-size:100%;
-	background-repeat: no-repeat;
+	display:none;
 	
 }
 #ViewPortfolio{
@@ -355,12 +348,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 
 .DemoSlide{
-	position:relative;  
-	margin: 4% 5% 50% 5%;
-	min-height:260px; 
-	height:auto;
-	width: 90.6%;
-	border-radius = 5px;
+	display:none;
 }
 #AboutScrollPoint{
 	position:absolute;
