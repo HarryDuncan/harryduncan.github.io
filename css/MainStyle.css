@@ -340,6 +340,18 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	letter-spacing:1vh;
 
 }
+
+.screen{
+	position:absolute;
+	width:48vw;
+	height:76vh;
+	bottom:10%;
+	left:25%;
+	background-image:url("../img/screen.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	
+}
 #ViewPortfolio{
 	position: absolute;
 	bottom:5%;
@@ -351,18 +363,6 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	background-color:white;
 	border-color: #232542;
 
-}
-
-.screen{
-	position:absolute;
-	width:38vw;
-	height:66vh;
-	bottom:0%;
-	left:25%;
-	background-image:url("../img/screen.png");
-	background-size:100%;
-	background-repeat: no-repeat;
-	
 }
 
 .DemoSlide{
