@@ -237,6 +237,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
     width:100%;
     z-index:2;
     background-color:#181819;
+    opacity: 0.7;
        
 }
 .MainNav h1{
@@ -285,7 +286,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 #Home p{
 	position:relative;
-	top:15%;
+	top:20%;
 	color: white;
 	margin:10%;
 	font: 6vh arial, sans-serif;
@@ -316,6 +317,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 #mobileVersion{
 	position:relative;
+	top:10%;
 	color:black;
 	font: 5vh arial, sans-serif;	
 }
