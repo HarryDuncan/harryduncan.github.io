@@ -311,7 +311,8 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	top:25%;
 	color: white;
 	margin:10%;
-	font: 8vh arial, sans-serif;
+	width:80%
+	font: 7vh arial, sans-serif;
 	font-weight:bold;
 	text-align:center;
 }
@@ -338,6 +339,7 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 }
 #mobileVersion{
 	position:relative;
+	display:inline-block;
 	top:10%;
 	color:black;
 	font: 5vh arial, sans-serif;	
