@@ -1,6 +1,7 @@
 var slideIndex = 0;
 $(document).ready(function(){
 	var viewHeight = $(window).height();
+	console.log(viewHeight);
 	$('#Home', '#About').css('height', viewHeight);
 	carousel()	
 $("li",".MainNav").click(function (){
