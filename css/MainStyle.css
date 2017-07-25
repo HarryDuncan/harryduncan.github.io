@@ -243,11 +243,8 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 	letter-spacing:2px;
 	position:absolute;
 	left:3%;
-	margin:0px;
 	line-height:80%;
 }
-
-
 
 /* all of the Css for the Main Nav bar */
 
@@ -339,7 +336,7 @@ html, body { overflow-y: scroll; overflow-x:hidden; height: 270vh;
 }
 
 .screen{
-	position:absolute;
+	position:relative;
 	width:48vw;
 	height:76vh;
 	bottom:1%;
