@@ -223,13 +223,17 @@ button:hover{
 
 /* for mobile */ 
 @media screen and (max-width: 699px){
-html, body { overflow-y: scroll; overflow-x:hidden; 
+html{ overflow-y: scroll; overflow-x:hidden; 
      	margin:0; /* remove default margin */
 	padding:0; /* remove default padding */
      	width:100%; /* take full browser width */
-     	height:100%; /* take full browser height*/
+     	height:125%; /* take full browser height*/
 	}
-	
+body{ margin:0; /* remove default margin */
+	padding:0; /* remove default padding */
+     	width:100%; /* take full browser width */
+     	height:105%; /* take full browser height*/	
+	}
 *{
 	border: 1px solid red;
 	}
