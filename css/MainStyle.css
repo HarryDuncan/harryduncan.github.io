@@ -227,12 +227,13 @@ html{ overflow-y: scroll; overflow-x:hidden;
      	margin:0; /* remove default margin */
 	padding:0; /* remove default padding */
      	width:100%; /* take full browser width */
-     	height:125%; /* take full browser height*/
+     	height:100%; /* take full browser height*/
 	}
-body{ margin:0; /* remove default margin */
+body{	positon:fixed;
+	margin:0; /* remove default margin */
 	padding:0; /* remove default padding */
      	width:100%; /* take full browser width */
-     	height:105%; /* take full browser height*/	
+     	height:200%; /* take full browser height*/	
 	}
 *{
 	border: 1px solid red;
@@ -301,10 +302,10 @@ body{ margin:0; /* remove default margin */
 
 #Home{
 	positon: relative;
-	min-height:65%;
+	min-height:80%;
 	width: 100vw;
 	background-image:url("../img/bg.jpg");
-	background-size: 100%;
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 #Home p{
@@ -312,7 +313,7 @@ body{ margin:0; /* remove default margin */
 	display:inline;
 	top:25%;
 	color: white;
-	margin:0 0 0 30%;
+	margin:0 0 0 20%;
 	padding:0px;
 	width:200%;
 	font: 7vh arial, sans-serif;
