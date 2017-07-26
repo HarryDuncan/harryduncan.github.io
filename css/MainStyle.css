@@ -224,7 +224,9 @@ button:hover{
 /* for mobile */ 
 @media screen and (max-width: 699px){
 html, body { overflow-y: scroll; overflow-x:hidden; 
-	height:125vh;
+	min-height:125vh;
+	top:0px;
+	bottom:0px;
 	}
 	
 *{
