@@ -224,7 +224,7 @@ button:hover{
 /* for mobile */ 
 @media screen and (max-width: 699px){
 html, body { overflow-y: scroll; overflow-x:hidden; 
-	height:125%;
+	height:125vh;
 	}
 	
 *{
@@ -364,7 +364,6 @@ html, body { overflow-y: scroll; overflow-x:hidden;
 	font-weight: bold;
 	color: black;
 	background-color:white;
-	cursor:pointer ;
 	border-color: #232542;
 	height:10%;
 	width:50%;
