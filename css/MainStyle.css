@@ -302,7 +302,7 @@ body{	positon:fixed;
 
 #Home{
 	positon: relative;
-	min-height:80%;
+	min-height:60%;
 	width: 100vw;
 	background-image:url("../img/bg.jpg");
 	background-size: auto;
@@ -310,10 +310,9 @@ body{	positon:fixed;
 }
 #Home p{
 	position:absolute;
-	display:inline;
 	top:25%;
 	color: white;
-	margin:0 0 0 20%;
+	margin:0 auto;
 	padding:0px;
 	width:200%;
 	font: 7vh arial, sans-serif;
@@ -326,9 +325,9 @@ body{	positon:fixed;
 	top:0px;
 }
 #mobileBanner{
-	position: relative;
-	diplay:inline;
-	height:5%;
+	position: absolute;
+	diplay:block;
+	height:20%;
 	width:100%;
 	background-color: red; 
 	}
@@ -350,11 +349,12 @@ body{	positon:fixed;
 }
 #mobileVersion{
 	position: absolute;
-	display:inline-block;
+	display:block;
 	top:10%;
-	left:25%;
+	margin: 0 auto;
 	color:black;
-	font: 5vh arial, sans-serif;	
+	font: 7vh arial, sans-serif;
+	
 }
 .screen{
 	display:none;
