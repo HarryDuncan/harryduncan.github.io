@@ -301,7 +301,7 @@ body{	positon:fixed;
 	min-height:60%;
 	width: 100vw;
 	background-image:url("../img/bg.jpg");
-	background-size: auto;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 #Home p{
@@ -365,7 +365,7 @@ body{	positon:fixed;
 #ViewPortfolio{
 	position: absolute;
 	bottom:30%;
-	right:28%;
+	right:26%;
 	padding: 3vh;
 	border-radius: 2px;
 	font: 5vh arial, sans-serif;
@@ -373,9 +373,9 @@ body{	positon:fixed;
 	color: white;
 	background-color:#181819;
 	border-color: #232542;
-	height:10%;
+	height:15%;
 	width:50%;
-	border-radius: 25px;
+	border-radius: 35px;
 
 }
 
