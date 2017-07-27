@@ -335,7 +335,7 @@ body{	positon:fixed;
 	width:100%;
 	margin: 0 auto;
 	border-radius:0px;
-	background: linear-gradient(to right,blue, white); /* Standard syntax */
+	background: linear-gradient(to right,#8fa2c1, white); /* Standard syntax */
 }
 
 #AboutSection p{
