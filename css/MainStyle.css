@@ -126,6 +126,7 @@ body {
 	color: #46484c;
 	font: 3vh arial, sans-serif;
 	text-align:left;
+
 	
 }
 #AboutSection h2{
@@ -330,9 +331,13 @@ body{	positon:fixed;
 #AboutSection{
 	position:relative;
 	display:block;
+	top:0%;
+	left:0%;
 	height:5%;
 	width:100%;
-	background: linear-gradient(red, yellow); /* Standard syntax */
+	margin: 0 auto;
+	border-radius:25px;
+	background: linear-gradient(to right,blue, white); /* Standard syntax */
 }
 
 #AboutSection p{
