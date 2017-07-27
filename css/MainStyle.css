@@ -99,9 +99,6 @@ body {
 	top:0px;
 }
 
-#mobileBanner{
-	display:none;	
-}
 /* For the Second Section, the About Section */
 #About{
 	position: relative;
@@ -324,20 +321,18 @@ body{	positon:fixed;
 	position:absolute;
 	top:0px;
 }
-#mobileBanner{
-	position: absolute;
-	diplay:block;
-	height:20%;
-	width:100%;
-	background-color: red; 
-	}
+
 #About{
 	height:60%;
 	background-color:white;
 	width:100%;
 }
 #AboutSection{
-	display:none;
+	position:relative;
+	display:block;
+	height:5%;
+	width:100%;
+	background: linear-gradient(red, yellow); /* Standard syntax */
 }
 
 #AboutSection p{
