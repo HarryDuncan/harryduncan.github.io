@@ -222,3 +222,93 @@ body{	positon:fixed;
 	color:#19218e;
 	opacity:0.8;
 }
+#PortfolioArea{
+	height: 130vh;
+	min-height:500px;
+	width: 100vw;
+	min-width:1000px;
+}
+
+h2{
+	position: relative;
+	top:17%;
+	font: 10vh arial, sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+	
+}
+
+#PortfolioGrid{
+	position: absolute;
+	top: 40%;
+	margin: 0 7% 0 7%;
+}
+#wrapper{
+	float: left;
+	height: 45vh;
+    	width: 25vw;
+    	display: inline-block;
+	margin:3vh;
+	border: 1px solid;
+	color: black;
+	border-radius:3px;
+	overflow:hidden;
+}
+.Text{
+	position:relative;
+	top:-100%;
+	font: 3vh arial, sans-serif;
+	margin:90px;
+	display: none;
+	font-weight:bold;
+	opacity:1;
+	cursor: none;
+	pointer-events:none;
+}
+
+.DemoThumbnail{
+	height: 100%;
+    	width: 130%;
+	
+	
+}
+.DemoThumbnail:hover{
+
+	opacity:0.5;
+	display:.Text;
+}
+
+
+#Contact{
+	position: relative;
+	background-color:#181819;
+	width:100vw;
+	height:30%;
+}
+#Contact h3{
+	position:absolute;
+	top: 2%;
+	left: 2%;
+	font: 9vh arial, sans-serif;
+	color: white;
+	font-weight: bold;
+	letter-spacing:1vh;
+
+}
+#Contact ul{
+	list-style-type:none;
+	position: absolute;
+	top: 40%;
+	
+}
+#Contact li{
+	font: 7vh arial, sans-serf;
+	color:#a6a6a8;
+}
+#footer{
+	display:none;
+	}
+#header{
+	display:none;
+	}
+}
