@@ -242,7 +242,7 @@ h2{
 	margin: 0 7% 0 7%;
 }
 #wrapper{
-	float: left;
+	clear:both;
 	height: 45vh;
     	width: 80vw;
     	display: block;
