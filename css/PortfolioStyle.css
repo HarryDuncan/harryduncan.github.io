@@ -224,9 +224,7 @@ body{	positon:fixed;
 }
 #PortfolioArea{
 	height: 130vh;
-	min-height:500px;
 	width: 100vw;
-	min-width:1000px;
 }
 
 h2{
@@ -246,9 +244,9 @@ h2{
 #wrapper{
 	float: left;
 	height: 45vh;
-    	width: 25vw;
+    	width: 60vw;
     	display: inline-block;
-	margin:3vh;
+	margin:0 auto;
 	border: 1px solid;
 	color: black;
 	border-radius:3px;
