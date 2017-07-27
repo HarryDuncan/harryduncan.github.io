@@ -223,13 +223,14 @@ body{	positon:fixed;
 	opacity:0.8;
 }
 #PortfolioArea{
-	height: auto;
+	clear:both;
+	height: 100%;
 	width: 100vw;
 }
 
 h2{
 	position: relative;
-	top:10%;
+	top:20%;
 	font: 8vh arial, sans-serif;
 	text-align: center;
 	letter-spacing: 3px;
@@ -242,9 +243,10 @@ h2{
 	margin: 0 7% 0 7%;
 }
 #wrapper{
+	position:relative;
 	clear:both;
 	height: 45vh;
-    	width: 80vw;
+    	width: 80%;
     	display: block;
 	margin:0 auto;
 	border: 1px solid;
