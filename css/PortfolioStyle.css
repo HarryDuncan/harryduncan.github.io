@@ -167,7 +167,9 @@ body{	positon:fixed;
      	width:100%; /* take full browser width */
      	height:200%; /* take full browser height*/	
 	}
-	
+*{
+	border: 2px red solid;
+	}
 .MainNav {
     position:fixed;
     list-style-type: none;
