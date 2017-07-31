@@ -223,6 +223,7 @@ body{	positon:fixed;
 	opacity:0.8;
 }
 #PortfolioArea{
+	position:relative;
 	clear:both;
 	height: 100%;
 	width: 100vw;
@@ -231,7 +232,7 @@ body{	positon:fixed;
 h2{
 	position: relative;
 	clear:both;
-	top:20%;
+	top:10%;
 	font: 8vh arial, sans-serif;
 	text-align: center;
 	letter-spacing: 3px;
