@@ -249,8 +249,8 @@ h2{
 #wrapper{
 	position:relative;
 	clear:both;
-	height: 45vh;
-    	width: 80%;
+	height: 75vh;
+    	width: auto;
     	display: block;
 	margin:0 auto;
 	border: 1px solid;
