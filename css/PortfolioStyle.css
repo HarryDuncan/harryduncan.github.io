@@ -160,6 +160,7 @@ html{ overflow-y: scroll; overflow-x:hidden;
 	padding:0; /* remove default padding */
      	width:300vw; /* take full browser width */
      	height:100%; /* take full browser height*/
+	border: 2px red solid;
 	}
 body{	positon:fixed;
 	margin:0; /* remove default margin */
@@ -167,9 +168,7 @@ body{	positon:fixed;
      	width:100%; /* take full browser width */
      	height:200%; /* take full browser height*/	
 	}
-*{
-	border: 2px red solid;
-	}
+
 .MainNav {
     position:fixed;
     list-style-type: none;
