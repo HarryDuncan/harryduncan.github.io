@@ -158,15 +158,14 @@ h2{
 html{ overflow-y: scroll; overflow-x:hidden; 
      	margin:0; /* remove default margin */
 	padding:0; /* remove default padding */
-     	width:300vw; /* take full browser width */
-     	height:100%; /* take full browser height*/
-	border: 2px red solid;
+     	width:fit-content; /* take full browser width */
+     	height:fit-content; /* take full browser height*/
 	}
 body{	positon:fixed;
 	margin:0; /* remove default margin */
 	padding:0; /* remove default padding */
-     	width:100%; /* take full browser width */
-     	height:200%; /* take full browser height*/	
+     	width:-webkit-fill-available; /* take full browser width */
+     	height:-webkit-fill-available; /* take full browser height*/	
 	}
 
 .MainNav {
@@ -226,8 +225,8 @@ body{	positon:fixed;
 #PortfolioArea{
 	position:relative;
 	clear:both;
-	height: 100%;
-	width: 100vw;
+	height: 50vh;
+	width: 100%;
 }
 
 h2{
@@ -240,19 +239,13 @@ h2{
 	
 }
 
-#PortfolioGrid{
-	position: absolute;
-	width:100vw;
-	height:100vh;
-	top: 20%;
-	margin:0 auto;
-}
+
 #wrapper{
 	position:relative;
 	clear:both;
 	height: 50%;
-    	width: 100%;
-    	display: block;
+    width: 100%;
+    display: block;
 	margin:0 auto;
 	padding:5%,0,5%,5%
 	border: 1px solid;
