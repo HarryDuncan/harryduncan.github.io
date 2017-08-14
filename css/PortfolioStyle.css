@@ -286,7 +286,7 @@ h2{
 
 
 #Contact{
-	position: relative;
+	position: absolute;
 	background-color:#181819;
 	width:100vw;
 	height:30%;
