@@ -256,13 +256,15 @@ h2{
 .Text{
 	position:relative;
 	top:-100%;
-	font: 5vh arial, sans-serif;
-	margin:10 auto;
+	font: 7vh arial, sans-serif;
+	margin:0 auto;
+	margin-top
 	display: block;
 	font-weight:bold;
 	opacity:1;
 	cursor: none;
 	pointer-events:none;
+	text-align:center
 }
 
 .DemoThumbnail{
