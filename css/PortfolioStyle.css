@@ -244,8 +244,8 @@ h2{
 	position:relative;
 	clear:both;
 	height: 50%;
-    width: 100%;
-    display: block;
+    	width: 100%;
+    	display: block;
 	margin:0 auto;
 	padding:5%,0,5%,5%
 	border: 1px solid;
@@ -256,9 +256,9 @@ h2{
 .Text{
 	position:relative;
 	top:-100%;
-	font: 3vh arial, sans-serif;
-	margin:90px;
-	display: inline-block;
+	font: 5vh arial, sans-serif;
+	margin:10 auto;
+	display: block;
 	font-weight:bold;
 	opacity:1;
 	cursor: none;
